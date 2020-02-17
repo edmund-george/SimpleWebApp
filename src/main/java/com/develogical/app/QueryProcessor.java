@@ -10,6 +10,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("softwareengineering")) {
             return "The act of getting software to do what you want it to do. (Edmund George)";
         }
+        if (query.toLowerCase().contains("machinelearning")) {
+            return "How we create SkyNet (Edmund George)";
+        }
         return "";
     }
 }
