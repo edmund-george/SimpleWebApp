@@ -20,8 +20,8 @@ public class QueryProcessor {
             return "pong";
         }
         else
-        if (query.toLowerCase().contains("ping2")) {
-            return "pong2";
+        if (query.toLowerCase().contains("ping3")) {
+            return "pong3";
         }
         return "";
     }
